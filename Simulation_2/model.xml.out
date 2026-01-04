@@ -1,0 +1,57 @@
+Initializing from file model.xml
+AutoFix: Moved 2 element(s)  matching /MorpheusModel/Global/System/DiffEqn/Expression to /MorpheusModel/Global/System/DiffEqn/Reaction
+AutoFix: Moved 1 element(s)  matching /MorpheusModel/Global/Field[(@symbol)]/Diffusion[@rate!=~0(?:\.0+)?]/@rate to /MorpheusModel/Global/System/DiffEqn[@symbol-ref=%1]/Diffusion/@text
+AutoFix: Moved 2 element(s)  matching /MorpheusModel/Global/Field[(@symbol)]/Diffusion to 
+Applied 5 patches to update MorpheusML version to internal v5!
+Time/RandomSeed not specified, using arbitray seed (based on time).
+Intitalize Thread 0 with seed 1765886109
+Intitalize Thread 4 with seed Intitalize Thread 3 with seed 585867031
+2005130358
+Intitalize Thread Intitalize Thread 2 with seed 1690080583
+1 with seed 135841937
+Registering Symbol time of linktype TimeLink in Scope root
+Time/RandomSeed not specified, using arbitray seed (based on time).
+Intitalize Thread 0Intitalize Thread  with seed 1765886109
+4 with seed 2005130358Intitalize Thread 3 with seed 585867031
+
+Intitalize Thread 2 with seed 1690080583
+Intitalize Thread 1 with seed 135841937
+Registering Symbol space of linktype LocationLink in Scope root
+Registering Symbol space.x of linktype VectorComponentLink in Scope root
+Registering Symbol space.y of linktype VectorComponentLink in Scope root
+Registering Symbol space.z of linktype VectorComponentLink in Scope root
+Registering Symbol space.phi of linktype VectorComponentLink in Scope root
+Registering Symbol space.theta of linktype VectorComponentLink in Scope root
+Registering Symbol space.abs of linktype VectorComponentLink in Scope root
+Creating lattice
+getXMLAttribute: seeking for Lattice->class: square
+getXMLAttribute: seeking for Size->value: 200.0, 200.0, 1.0
+getXMLAttribute: seeking for Size->symbol: size
+Loading [7] Global Plugins
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: k_on
+getXMLAttribute: seeking for Constant->value: 1.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol k_on of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Field->symbol: u
+Registering Symbol u of linktype FieldLink in Scope root
+getXMLAttribute: seeking for Field->symbol: v
+Registering Symbol v of linktype FieldLink in Scope root
+Creating subscope System in scope root
+getXMLAttribute: seeking for System->solver: Dormand-Prince [adaptive, O(5)]
+getXMLAttribute: seeking for System->solver-eps .. not found
+getXMLAttribute: seeking for DiffEqn->symbol-ref: u
+getXMLAttribute: seeking for Reaction->text: -k_on*u*m+k_off*v-decay*u
+getXMLAttribute: seeking for Advection->text .. not found
+getXMLAttribute: seeking for Diffusion->text: 0.1
+getXMLAttribute: seeking for Diffusion->well-mixed .. not found
+getXMLAttribute: seeking for DiffEqn->symbol-ref: v
+getXMLAttribute: seeking for Reaction->text: k_on * u  * m - k_off * v
+getXMLAttribute: seeking for Advection->text .. not found
+getXMLAttribute: seeking for Diffusion->text .. not found
+getXMLAttribute: seeking for Diffusion->well-mixed .. not found
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: k_on
+getXMLAttribute: seeking for Constant->value: 1.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol k_on of linktype ConstantLink in Scope root

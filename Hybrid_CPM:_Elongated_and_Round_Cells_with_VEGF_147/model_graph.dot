@@ -1,0 +1,242 @@
+digraph {
+compound=true;
+subgraph cluster{
+labelloc="t";label="Global";bgcolor="#2341782f"
+node[style=filled,fillcolor="#fffea3"]
+Logger_0_10[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>Logger</td></tr>
+<hr/>
+<tr><td>10</td></tr></table></font>>, URL="morph://MorpheusModel/Analysis/Logger" ]
+Gnuplotter_0_50[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>Gnuplotter</td></tr>
+<hr/>
+<tr><td>50</td></tr></table></font>>, URL="morph://MorpheusModel/Analysis/Gnuplotter" ]
+CPM_0_1 [shape=record, label="{CPM|1}", URL="morph://MorpheusModel/CPM" ]
+J_ee_base_0[label="J_ee_base", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[15]"]
+J_ee_penalty_0[label="J_ee_penalty", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[16]"]
+J_ee_spatial_0[label="J_ee_spatial", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Function"]
+J_em_0[label="J_em", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[7]"]
+J_er_0[label="J_er", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[6]"]
+J_rm_0[label="J_rm", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[8]"]
+J_rr_0[label="J_rr", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[5]"]
+antispace_0[label="antispace", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Variable[0]"]
+antispace_reduction_0[label="antispace_reduction", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[4]"]
+cell_center_0[label="cell.center", fillcolor="#b5b426",peripheries=2]
+cell_type_0[label="cell.type", fillcolor="#d3d247",peripheries=2]
+elongated_id_0[label="elongated_id", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[17]"]
+lambda_chemo_base_0[label="lambda_chemo_base", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[9]"]
+lambda_chemo_round_0[label="lambda_chemo_round", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[10]"]
+lambda_surface_elongated_0[label="lambda_surface_elongated", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[2]"]
+lambda_surface_round_0[label="lambda_surface_round", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[13]"]
+lambda_volume_elongated_0[label="lambda_volume_elongated", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[1]"]
+lambda_volume_round_0[label="lambda_volume_round", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[14]"]
+space_0[label="space", fillcolor="#b5b426", URL="morph://MorpheusModel/Space/SpaceSymbol"]
+space_x_0[label="space.x", fillcolor="#d3d247"]
+space_y_0[label="space.y", fillcolor="#d3d247"]
+time_0[label="time", fillcolor="#d3d247", URL="morph://MorpheusModel/Time/TimeSymbol"]
+vegf_0[label="vegf", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Field"]
+vegf_decay_0[label="vegf_decay", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[12]"]
+subgraph cluster_1 {
+label="";
+System_1_1[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>System</td></tr>
+<hr/>
+<tr><td>1</td></tr></table></font>>, URL="morph://MorpheusModel/Global/System[0]" ]
+}
+subgraph cluster_2 {
+label="";
+System_2_0_02375[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>System</td></tr>
+<hr/>
+<tr><td>0.02375</td></tr></table></font>>, URL="morph://MorpheusModel/Global/System[1]" ]
+}
+subgraph cluster_3 {
+label="Function";
+}
+subgraph cluster_4 {
+label="CellType[ElongatedCell]";
+CellDivision_4_1[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>CellDivision</td></tr>
+<hr/>
+<tr><td>1</td></tr></table></font>>, URL="morph://MorpheusModel/CellTypes/CellType[0]/CellDivision" ]
+Mapper_4_1[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>Mapper</td></tr>
+<hr/>
+<tr><td>1</td></tr></table></font>>, URL="morph://MorpheusModel/CellTypes/CellType[0]/Mapper" ]
+NeighborhoodReporter_4_1[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>NeighborhoodReporter</td></tr>
+<hr/>
+<tr><td>1</td></tr></table></font>>, URL="morph://MorpheusModel/CellTypes/CellType[0]/NeighborhoodReporter" ]
+subgraph cluster_cpm4 {
+label="CPM components";
+Chemotaxis_4[ shape=Mrecord, label=" Chemotaxis", URL="morph://MorpheusModel/CellTypes/CellType[0]/Chemotaxis"];
+VolumeConstraint_4[ shape=Mrecord, label=" VolumeConstraint", URL="morph://MorpheusModel/CellTypes/CellType[0]/VolumeConstraint"];
+SurfaceConstraint_4[ shape=Mrecord, label=" SurfaceConstraint", URL="morph://MorpheusModel/CellTypes/CellType[0]/SurfaceConstraint"];
+DirectedMotion_4[ shape=Mrecord, label=" DirectedMotion", URL="morph://MorpheusModel/CellTypes/CellType[0]/DirectedMotion"];
+}
+cell_center_4[label="cell.center", fillcolor="#b5b426"]
+cell_center_x_4[label="cell.center.x", fillcolor="#d3d247"]
+cell_center_y_4[label="cell.center.y", fillcolor="#d3d247"]
+cell_type_4[label="cell.type", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[0]"]
+cell_volume_4[label="cell.volume", fillcolor="#d3d247"]
+dir_x_4[label="dir_x", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[0]/Property[3]"]
+dir_y_4[label="dir_y", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[0]/Property[4]"]
+division_timer_4[label="division_timer", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[0]/Property[1]"]
+neighbor_contact_length_4[label="neighbor_contact_length", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[0]/Property[5]"]
+vegf_contact_4[label="vegf_contact", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[0]/Property[0]"]
+subgraph cluster_7 {
+label="";
+Event_7_10[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>Event</td></tr>
+<hr/>
+<tr><td>10</td></tr></table></font>>, URL="morph://MorpheusModel/CellTypes/CellType[0]/Event" ]
+}
+subgraph cluster_8 {
+label="";
+}
+subgraph cluster_9 {
+label="";
+System_9_1[ shape=plain, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>System</td></tr>
+<hr/>
+<tr><td>1</td></tr></table></font>>, URL="morph://MorpheusModel/CellTypes/CellType[0]/System" ]
+}
+}
+subgraph cluster_5 {
+label="CellType[RoundCell]";
+subgraph cluster_cpm5 {
+label="CPM components";
+VolumeConstraint_5[ shape=Mrecord, label=" VolumeConstraint", URL="morph://MorpheusModel/CellTypes/CellType[1]/VolumeConstraint"];
+Chemotaxis_5[ shape=Mrecord, label=" Chemotaxis", URL="morph://MorpheusModel/CellTypes/CellType[1]/Chemotaxis"];
+SurfaceConstraint_5[ shape=Mrecord, label=" SurfaceConstraint", URL="morph://MorpheusModel/CellTypes/CellType[1]/SurfaceConstraint"];
+}
+cell_center_5[label="cell.center", fillcolor="#b5b426"]
+cell_type_5[label="cell.type", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[1]"]
+}
+subgraph cluster_6 {
+label="CellType[Medium]";
+}
+}
+CPM_0_1 -> Chemotaxis_4 [dir=none, style="dashed", penwidth=1, color="#38568c",lhead=cluster_cpm4] 
+
+CPM_0_1 -> VolumeConstraint_5 [dir=none, style="dashed", penwidth=1, color="#38568c",lhead=cluster_cpm5] 
+
+CPM_0_1 -> cell_center_0 [penwidth=3, color="#8f100d"] 
+
+CPM_0_1 -> cell_type_0 [penwidth=3, color="#8f100d"] 
+
+CellDivision_4_1 -> cell_center_4 [penwidth=3, color="#8f100d"] 
+
+CellDivision_4_1 -> vegf_contact_4 [penwidth=3, color="#8f100d"] 
+
+Event_7_10 -> division_timer_4 [penwidth=3, color="#8f100d"] 
+
+J_ee_base_0 -> J_ee_spatial_0 [penwidth=2, color="#112c5f"] 
+
+J_ee_penalty_0 -> J_ee_spatial_0 [penwidth=2, color="#112c5f"] 
+
+J_ee_spatial_0 -> CPM_0_1 [penwidth=2, color="#112c5f"] 
+
+J_em_0 -> CPM_0_1 [penwidth=2, color="#112c5f"] 
+
+J_er_0 -> CPM_0_1 [penwidth=2, color="#112c5f"] 
+
+J_rm_0 -> CPM_0_1 [penwidth=2, color="#112c5f"] 
+
+J_rr_0 -> CPM_0_1 [penwidth=2, color="#112c5f"] 
+
+Mapper_4_1 -> vegf_contact_4 [penwidth=3, color="#8f100d"] 
+
+NeighborhoodReporter_4_1 -> neighbor_contact_length_4 [penwidth=3, color="#8f100d"] 
+
+System_1_1 -> antispace_0 [penwidth=3, color="#8f100d"] 
+
+System_2_0_02375 -> vegf_0 [penwidth=3, color="#8f100d"] 
+
+System_9_1 -> dir_x_4 [penwidth=3, color="#8f100d"] 
+
+System_9_1 -> dir_y_4 [penwidth=3, color="#8f100d"] 
+
+antispace_0 -> CellDivision_4_1 [penwidth=2, color="#112c5f"] 
+
+antispace_0 -> Chemotaxis_4 [penwidth=2, color="#112c5f"] 
+
+antispace_0 -> Logger_0_10 [penwidth=2, color="#112c5f"] 
+
+antispace_reduction_0 -> System_1_1 [penwidth=2, color="#112c5f"] 
+
+cell_center_4 -> Mapper_4_1 [penwidth=2, color="#112c5f"] 
+
+cell_center_4 -> NeighborhoodReporter_4_1 [penwidth=2, color="#112c5f"] 
+
+cell_center_4 -> cell_center_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_center_4 -> cell_center_x_4 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_center_4 -> cell_center_y_4 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_center_5 -> cell_center_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_center_x_4 -> System_9_1 [penwidth=2, color="#112c5f"] 
+
+cell_center_y_4 -> System_9_1 [penwidth=2, color="#112c5f"] 
+
+cell_type_0 -> Gnuplotter_0_50 [penwidth=2, color="#112c5f"] 
+
+cell_type_0 -> NeighborhoodReporter_4_1 [penwidth=2, color="#112c5f"] 
+
+cell_type_4 -> cell_type_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_type_5 -> cell_type_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_volume_4 -> CellDivision_4_1 [penwidth=2, color="#112c5f"] 
+
+dir_x_4 -> DirectedMotion_4 [penwidth=2, color="#112c5f"] 
+
+dir_y_4 -> DirectedMotion_4 [penwidth=2, color="#112c5f"] 
+
+division_timer_4 -> Event_7_10 [penwidth=2, color="#112c5f"] 
+
+elongated_id_0 -> NeighborhoodReporter_4_1 [penwidth=2, color="#112c5f"] 
+
+lambda_chemo_base_0 -> Chemotaxis_4 [penwidth=2, color="#112c5f"] 
+
+lambda_chemo_round_0 -> Chemotaxis_5 [penwidth=2, color="#112c5f"] 
+
+lambda_surface_elongated_0 -> SurfaceConstraint_4 [penwidth=2, color="#112c5f"] 
+
+lambda_surface_round_0 -> SurfaceConstraint_5 [penwidth=2, color="#112c5f"] 
+
+lambda_volume_elongated_0 -> VolumeConstraint_4 [penwidth=2, color="#112c5f"] 
+
+lambda_volume_round_0 -> VolumeConstraint_5 [penwidth=2, color="#112c5f"] 
+
+neighbor_contact_length_4 -> Chemotaxis_4 [penwidth=2, color="#112c5f"] 
+
+space_0 -> space_x_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+space_0 -> space_y_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+space_x_0 -> System_2_0_02375 [penwidth=2, color="#112c5f"] 
+
+space_y_0 -> System_2_0_02375 [penwidth=2, color="#112c5f"] 
+
+time_0 -> Event_7_10 [penwidth=2, color="#112c5f"] 
+
+time_0 -> Logger_0_10 [penwidth=2, color="#112c5f"] 
+
+vegf_0 -> Chemotaxis_4 [penwidth=2, color="#112c5f"] 
+
+vegf_0 -> Chemotaxis_5 [penwidth=2, color="#112c5f"] 
+
+vegf_0 -> Gnuplotter_0_50 [penwidth=2, color="#112c5f"] 
+
+vegf_0 -> J_ee_spatial_0 [penwidth=2, color="#112c5f"] 
+
+vegf_0 -> Mapper_4_1 [penwidth=2, color="#112c5f"] 
+
+vegf_contact_4 -> CellDivision_4_1 [penwidth=2, color="#112c5f"] 
+
+vegf_decay_0 -> System_2_0_02375 [penwidth=2, color="#112c5f"] 
+
+}

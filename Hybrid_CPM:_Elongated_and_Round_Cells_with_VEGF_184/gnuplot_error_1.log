@@ -1,0 +1,11 @@
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 402: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 402: unrecognized option - see 'help set'.
+

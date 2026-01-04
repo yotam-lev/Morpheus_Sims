@@ -1,0 +1,1026 @@
+Initializing from file model.xml
+AutoFix: Moved 2 element(s)  matching /MorpheusModel/Global/System/DiffEqn/Expression to /MorpheusModel/Global/System/DiffEqn/Reaction
+AutoFix: Moved 1 element(s)  matching /MorpheusModel/Global/Field[(@symbol)]/Diffusion[@rate!=~0(?:\.0+)?]/@rate to /MorpheusModel/Global/System/DiffEqn[@symbol-ref=%1]/Diffusion/@text
+AutoFix: Moved 1 element(s)  matching /MorpheusModel/Global/Field[(@symbol)]/Diffusion to 
+Applied 4 patches to update MorpheusML version to internal v5!
+Time/RandomSeed not specified, using arbitray seed (based on time).
+Intitalize Thread 0 with seed Intitalize Thread Intitalize Thread 1766862255
+4 with seed Intitalize Thread 20292150092Intitalize Thread  with seed 1 with seed 1362947779
+
+3 with seed 3754508687
+1842699412
+Registering Symbol time of linktype TimeLink in Scope root
+Time/RandomSeed not specified, using arbitray seed (based on time).
+Intitalize Thread 0 with seed 1766862255
+Intitalize Thread Intitalize Thread 4 with seed 2029215009
+3Intitalize Thread 1 with seed 1842699412
+ with seed 3754508687
+Intitalize Thread 2 with seed 1362947779
+Registering Symbol space of linktype LocationLink in Scope root
+Registering Symbol space.x of linktype VectorComponentLink in Scope root
+Registering Symbol space.y of linktype VectorComponentLink in Scope root
+Registering Symbol space.z of linktype VectorComponentLink in Scope root
+Registering Symbol space.phi of linktype VectorComponentLink in Scope root
+Registering Symbol space.theta of linktype VectorComponentLink in Scope root
+Registering Symbol space.abs of linktype VectorComponentLink in Scope root
+Creating lattice
+getXMLAttribute: seeking for Lattice->class: square
+getXMLAttribute: seeking for Size->value: 400, 400, 0
+getXMLAttribute: seeking for Size->symbol: size
+Loading [26] Global Plugins
+getXMLAttribute: seeking for Constant->name: Temperature
+getXMLAttribute: seeking for Constant->symbol: T
+getXMLAttribute: seeking for Constant->value: 10.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol T of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name: Volume constraint
+getXMLAttribute: seeking for Constant->symbol: lambda_volume_elongated
+getXMLAttribute: seeking for Constant->value: 6.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol lambda_volume_elongated of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name: Surface constraint
+getXMLAttribute: seeking for Constant->symbol: lambda_surface_elongated
+getXMLAttribute: seeking for Constant->value: 3.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol lambda_surface_elongated of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name: VEGF proliferation threshold
+getXMLAttribute: seeking for Constant->symbol: vegf_threshold
+getXMLAttribute: seeking for Constant->value: 0.5
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol vegf_threshold of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name: Anti-space reduction rate
+getXMLAttribute: seeking for Constant->symbol: antispace_reduction
+getXMLAttribute: seeking for Constant->value: 0.001
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol antispace_reduction of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: J_rr
+getXMLAttribute: seeking for Constant->value: 3.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol J_rr of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: J_er
+getXMLAttribute: seeking for Constant->value: 3.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol J_er of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: J_em
+getXMLAttribute: seeking for Constant->value: 3.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol J_em of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: J_rm
+getXMLAttribute: seeking for Constant->value: 4.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol J_rm of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Field->symbol: vegf
+Registering Symbol vegf of linktype FieldLink in Scope root
+getXMLAttribute: seeking for Constant->name: Chemotaxis strength (elongated)
+getXMLAttribute: seeking for Constant->symbol: lambda_chemo_base
+getXMLAttribute: seeking for Constant->value: 1500.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol lambda_chemo_base of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name: Chemotaxis strength (round)
+getXMLAttribute: seeking for Constant->symbol: lambda_chemo_round
+getXMLAttribute: seeking for Constant->value: 100.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol lambda_chemo_round of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Variable->name .. not found
+getXMLAttribute: seeking for Variable->symbol: antispace
+getXMLAttribute: seeking for Variable->value: 1.0
+getXMLAttribute: seeking for Variable->notation .. not found
+Registering Symbol antispace of linktype VariableLink in Scope root
+getXMLAttribute: seeking for Variable->name: Effective temperature
+getXMLAttribute: seeking for Variable->symbol: T_eff
+getXMLAttribute: seeking for Variable->value: T * antispace
+getXMLAttribute: seeking for Variable->notation .. not found
+Registering Symbol T_eff of linktype VariableLink in Scope root
+getXMLAttribute: seeking for System->time-step: 1.0
+Creating subscope System in scope root
+getXMLAttribute: seeking for System->solver: Runge-Kutta [fixed, O(4)]
+getXMLAttribute: seeking for System->solver-eps .. not found
+getXMLAttribute: seeking for DiffEqn->symbol-ref: antispace
+getXMLAttribute: seeking for Reaction->text: -antispace_reduction * antispace
+getXMLAttribute: seeking for Advection->text .. not found
+getXMLAttribute: seeking for Diffusion->text .. not found
+getXMLAttribute: seeking for Diffusion->well-mixed .. not found
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: vegf_diff
+getXMLAttribute: seeking for Constant->value: 10.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol vegf_diff of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: vegf_decay
+getXMLAttribute: seeking for Constant->value: 0.005
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol vegf_decay of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: lambda_surface_round
+getXMLAttribute: seeking for Constant->value: 1.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol lambda_surface_round of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: lambda_volume_round
+getXMLAttribute: seeking for Constant->value: 15.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol lambda_volume_round of linktype ConstantLink in Scope root
+Creating subscope System in scope root
+getXMLAttribute: seeking for System->solver: Dormand-Prince [adaptive, O(5)]
+getXMLAttribute: seeking for System->solver-eps .. not found
+getXMLAttribute: seeking for DiffEqn->symbol-ref: vegf
+getXMLAttribute: seeking for Reaction->text: -vegf_decay * vegf + 0.02 * ( ((space.x-200)^2 + (space.y-200)^2) < 2500 )
+getXMLAttribute: seeking for Advection->text .. not found
+getXMLAttribute: seeking for Diffusion->text: vegf_diff
+getXMLAttribute: seeking for Diffusion->well-mixed .. not found
+getXMLAttribute: seeking for Constant->name: Elongated-Elongated adhesion
+getXMLAttribute: seeking for Constant->symbol: J_ee_base
+getXMLAttribute: seeking for Constant->value: 4.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol J_ee_base of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: J_ee_penalty
+getXMLAttribute: seeking for Constant->value: 5.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol J_ee_penalty of linktype ConstantLink in Scope root
+Creating subscope Function in scope root
+getXMLAttribute: seeking for Function->symbol: J_ee_spatial
+getXMLAttribute: seeking for Expression->text: J_ee_base + J_ee_penalty * (1.0 - min(1.0, vegf/4.0))
+Registering Symbol J_ee_spatial of linktype FunctionLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: elongated_id
+getXMLAttribute: seeking for Constant->value: 1.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol elongated_id of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: grid_freq
+getXMLAttribute: seeking for Constant->value: 2 * pi/50
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol grid_freq of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: black_bg
+getXMLAttribute: seeking for Constant->value: 1.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol black_bg of linktype ConstantLink in Scope root
+Creating subscope CellType[ElongatedCell] in scope root
+Registering Symbol cell.type of linktype PrimitiveConstant in Scope CellType[ElongatedCell]
+Registering Symbol cell.type of linktype CompositeLink in Scope root
+Registering Symbol cell.id of linktype CellIDLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.id of linktype CompositeLink in Scope root
+Registering Symbol cell.center of linktype CellCenterLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.center of linktype CompositeLink in Scope root
+Registering Symbol cell.center.x of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.y of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.z of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.phi of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.theta of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.abs of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.x of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.center.y of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.center.z of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.center.phi of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.center.theta of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.center.abs of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.volume of linktype CellVolumeLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.volume of linktype CompositeLink in Scope root
+Registering Symbol cell.length of linktype CellLengthLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.length of linktype CompositeLink in Scope root
+Registering Symbol cell.surface of linktype CellInterfaceLengthLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.surface of linktype CompositeLink in Scope root
+Registering Symbol cell.orientation of linktype CellOrientationLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.orientation of linktype CompositeLink in Scope root
+Registering Symbol cell.orientation.x of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.y of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.z of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.phi of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.theta of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.abs of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.x of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.orientation.y of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.orientation.z of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.orientation.phi of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.orientation.theta of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol cell.orientation.abs of linktype VectorComponentLink in Scope CellType[ElongatedCell]
+Registering Symbol celltype.ElongatedCell.id of linktype PrimitiveConstant in Scope root
+Registering Symbol celltype.ElongatedCell.size of linktype CellPopulationSizeLink in Scope root
+Creating subscope CellType[RoundCell] in scope root
+Registering Symbol cell.type of linktype PrimitiveConstant in Scope CellType[RoundCell]
+Registering Symbol cell.id of linktype CellIDLink in Scope CellType[RoundCell]
+Registering Symbol cell.center of linktype CellCenterLink in Scope CellType[RoundCell]
+Registering Symbol cell.center.x of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.center.y of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.center.z of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.center.phi of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.center.theta of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.center.abs of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.volume of linktype CellVolumeLink in Scope CellType[RoundCell]
+Registering Symbol cell.length of linktype CellLengthLink in Scope CellType[RoundCell]
+Registering Symbol cell.surface of linktype CellInterfaceLengthLink in Scope CellType[RoundCell]
+Registering Symbol cell.orientation of linktype CellOrientationLink in Scope CellType[RoundCell]
+Registering Symbol cell.orientation.x of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.orientation.y of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.orientation.z of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.orientation.phi of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.orientation.theta of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol cell.orientation.abs of linktype VectorComponentLink in Scope CellType[RoundCell]
+Registering Symbol celltype.RoundCell.id of linktype PrimitiveConstant in Scope root
+Registering Symbol celltype.RoundCell.size of linktype CellPopulationSizeLink in Scope root
+Creating subscope CellType[Medium] in scope root
+Registering Symbol cell.type of linktype PrimitiveConstant in Scope CellType[Medium]
+Registering Symbol cell.id of linktype CellIDLink in Scope CellType[Medium]
+Registering Symbol cell.center of linktype CellCenterLink in Scope CellType[Medium]
+Registering Symbol cell.center.x of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.y of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.z of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.phi of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.theta of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.abs of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.volume of linktype CellVolumeLink in Scope CellType[Medium]
+Registering Symbol celltype.Medium.id of linktype PrimitiveConstant in Scope root
+Registering Symbol celltype.Medium.size of linktype CellPopulationSizeLink in Scope root
+getXMLAttribute: seeking for Chemotaxis->field: vegf
+getXMLAttribute: seeking for Chemotaxis->strength: lambda_chemo_base * antispace * (50.0 / (50.0 + neighbor_contact_length))
+getXMLAttribute: seeking for Chemotaxis->saturation: 1
+getXMLAttribute: seeking for Chemotaxis->retraction .. not found
+getXMLAttribute: seeking for Chemotaxis->contact-inhibition .. not found
+getXMLAttribute: seeking for Event->delay .. not found
+getXMLAttribute: seeking for Event->compute-time .. not found
+getXMLAttribute: seeking for Event->trigger .. not found
+getXMLAttribute: seeking for Condition->history: true
+getXMLAttribute: seeking for Event->persistent .. not found
+getXMLAttribute: seeking for Event->time-step: 10.0
+Scope: Creating Accessor for symbol 'time' from Scope root
+Creating subscope System in scope CellType[ElongatedCell]
+getXMLAttribute: seeking for Rule->symbol-ref: division_timer
+getXMLAttribute: seeking for Expression->text: 0
+getXMLAttribute: seeking for Condition->text: cell.volume > 90 and vegf_contact > 0.1 and (0.0005*(1+0.25 * vegf_contact) * antispace) > rand_uni(0,1)
+getXMLAttribute: seeking for CellDivision->division-plane: major
+getXMLAttribute: seeking for CellDivision->orientation .. not found
+getXMLAttribute: seeking for CellDivision->write-log .. not found
+getXMLAttribute: seeking for CellDivision->trigger .. not found
+Creating subscope System in scope CellType[ElongatedCell]
+getXMLAttribute: seeking for Rule->symbol-ref: vegf_contact
+getXMLAttribute: seeking for Expression->text: vegf_contact *0.5
+Registering Symbol __daughterID of linktype PrimitiveVariable in Scope System
+getXMLAttribute: seeking for Input->value: vegf
+getXMLAttribute: seeking for Polarity->symbol-ref .. not found
+getXMLAttribute: seeking for Output[0]->mapping: average
+getXMLAttribute: seeking for Output[0]->symbol-ref: vegf_contact
+getXMLAttribute: seeking for Input->scaling: length
+getXMLAttribute: seeking for Input->value: cell.type == elongated_id
+getXMLAttribute: seeking for Input->noflux-cell-medium .. not found
+getXMLAttribute: seeking for Output[0]->mapping: sum
+getXMLAttribute: seeking for Output[0]->symbol-ref: neighbor_contact_length
+getXMLAttribute: seeking for NeighborhoodReporter->time-step: 1.0
+getXMLAttribute: seeking for Property->name .. not found
+getXMLAttribute: seeking for Property->symbol: current_chemo_strength
+getXMLAttribute: seeking for Property->value: 0.0
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol current_chemo_strength of linktype CellPropertyLink in Scope CellType[ElongatedCell]
+Registering Symbol current_chemo_strength of linktype CompositeLink in Scope root
+getXMLAttribute: seeking for DirectedMotion->direction: dir_x, dir_y, 0.0
+getXMLAttribute: seeking for DirectedMotion->strength: 1.5
+getXMLAttribute: seeking for DirectedMotion->protrusion .. not found
+getXMLAttribute: seeking for DirectedMotion->retraction .. not found
+getXMLAttribute: seeking for System->time-step: 1.0
+Creating subscope System in scope CellType[ElongatedCell]
+getXMLAttribute: seeking for System->solver: Runge-Kutta [fixed, O(4)]
+getXMLAttribute: seeking for System->solver-eps .. not found
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: freq
+getXMLAttribute: seeking for Constant->value: 2 * pi/50.0
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol freq of linktype ConstantLink in Scope System
+getXMLAttribute: seeking for Rule->symbol-ref: dir_x
+getXMLAttribute: seeking for Expression->text: -sin(cell.center.x * freq) * in_box
+getXMLAttribute: seeking for Rule->symbol-ref: dir_y
+getXMLAttribute: seeking for Expression->text: -sin(cell.center.y * freq) * in_box
+getXMLAttribute: seeking for SurfaceConstraint->target: 50
+getXMLAttribute: seeking for SurfaceConstraint->strength: lambda_surface_elongated
+getXMLAttribute: seeking for SurfaceConstraint->mode: surface
+getXMLAttribute: seeking for SurfaceConstraint->exponent .. not found
+getXMLAttribute: seeking for VolumeConstraint->target: 150
+getXMLAttribute: seeking for VolumeConstraint->strength: lambda_volume_elongated
+getXMLAttribute: seeking for LengthConstraint->mode: eccentricity
+getXMLAttribute: seeking for LengthConstraint->target: 60
+getXMLAttribute: seeking for LengthConstraint->strength: 8
+getXMLAttribute: seeking for Property->name: VEGF Contact Level
+getXMLAttribute: seeking for Property->symbol: vegf_contact
+getXMLAttribute: seeking for Property->value: 0.0
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol vegf_contact of linktype CellPropertyLink in Scope CellType[ElongatedCell]
+Registering Symbol vegf_contact of linktype CompositeLink in Scope root
+getXMLAttribute: seeking for Property->name: Division countdown
+getXMLAttribute: seeking for Property->symbol: division_timer
+getXMLAttribute: seeking for Property->value: 0.0
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol division_timer of linktype CellPropertyLink in Scope CellType[ElongatedCell]
+Registering Symbol division_timer of linktype CompositeLink in Scope root
+getXMLAttribute: seeking for Property->name .. not found
+getXMLAttribute: seeking for Property->symbol: display
+getXMLAttribute: seeking for Property->value: 1.0
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol display of linktype CellPropertyLink in Scope CellType[ElongatedCell]
+Registering Symbol display of linktype CompositeLink in Scope root
+getXMLAttribute: seeking for Property->name .. not found
+getXMLAttribute: seeking for Property->symbol: neighbor_contact_length
+getXMLAttribute: seeking for Property->value: 0.0
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol neighbor_contact_length of linktype CellPropertyLink in Scope CellType[ElongatedCell]
+Registering Symbol neighbor_contact_length of linktype CompositeLink in Scope root
+getXMLAttribute: seeking for Property->name .. not found
+getXMLAttribute: seeking for Property->symbol: dir_x
+getXMLAttribute: seeking for Property->value: 0.0
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol dir_x of linktype CellPropertyLink in Scope CellType[ElongatedCell]
+Registering Symbol dir_x of linktype CompositeLink in Scope root
+getXMLAttribute: seeking for Property->name .. not found
+getXMLAttribute: seeking for Property->symbol: dir_y
+getXMLAttribute: seeking for Property->value: 0.0
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol dir_y of linktype CellPropertyLink in Scope CellType[ElongatedCell]
+Registering Symbol dir_y of linktype CompositeLink in Scope root
+getXMLAttribute: seeking for Property->name .. not found
+getXMLAttribute: seeking for Property->symbol: in_box
+getXMLAttribute: seeking for Property->value: (cell.center.x > 100) and (cell.center.x < 300) and (cell.center.y > 100) and (cell.center.y < 300)
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol in_box of linktype CellPropertyLink in Scope CellType[ElongatedCell]
+Registering Symbol in_box of linktype CompositeLink in Scope root
+getXMLAttribute: seeking for VolumeConstraint->target: 80
+getXMLAttribute: seeking for VolumeConstraint->strength: lambda_volume_round
+getXMLAttribute: seeking for SurfaceConstraint->target: 35
+getXMLAttribute: seeking for SurfaceConstraint->strength: lambda_surface_round
+getXMLAttribute: seeking for SurfaceConstraint->mode: surface
+getXMLAttribute: seeking for SurfaceConstraint->exponent .. not found
+getXMLAttribute: seeking for Chemotaxis->field: vegf 
+getXMLAttribute: seeking for Chemotaxis->strength: lambda_chemo_round
+getXMLAttribute: seeking for Chemotaxis->saturation .. not found
+getXMLAttribute: seeking for Chemotaxis->retraction .. not found
+getXMLAttribute: seeking for Chemotaxis->contact-inhibition .. not found
+getXMLAttribute: seeking for Condition->text: cell.volume > 70 and (0.0001 * (1 + (10*vegf_contact))) > rand_uni(0,1)
+getXMLAttribute: seeking for CellDivision->division-plane: major
+getXMLAttribute: seeking for CellDivision->orientation .. not found
+getXMLAttribute: seeking for CellDivision->write-log .. not found
+getXMLAttribute: seeking for CellDivision->trigger .. not found
+getXMLAttribute: seeking for Property->name: VEGF Contact Level
+getXMLAttribute: seeking for Property->symbol: vegf_contact
+getXMLAttribute: seeking for Property->value: 0.0
+getXMLAttribute: seeking for Property->notation .. not found
+Registering Symbol vegf_contact of linktype CellPropertyLink in Scope CellType[RoundCell]
+CellTypes defined: 'ElongatedCell' 'Medium' 'RoundCell' 
+getXMLAttribute: seeking for MonteCarloSampler/MCSDuration->value: 1.0
+getXMLAttribute: seeking for MonteCarloSampler->stepper: edgelist
+getXMLAttribute: seeking for MonteCarloSampler/MetropolisKinetics->temperature: T
+getXMLAttribute: seeking for MonteCarloSampler/MetropolisKinetics->yield: 0
+getXMLAttribute: seeking for Contact->value: J_em
+getXMLAttribute: seeking for Contact->value: J_rm
+getXMLAttribute: seeking for Contact->value: J_er
+getXMLAttribute: seeking for Contact->value: J_ee_spatial
+getXMLAttribute: seeking for Contact->value: J_rr
+Registering Symbol size of linktype PrimitiveConstant in Scope root
+Registering Symbol size.x of linktype VectorComponentLink in Scope root
+Registering Symbol size.y of linktype VectorComponentLink in Scope root
+Registering Symbol size.z of linktype VectorComponentLink in Scope root
+Registering Symbol size.phi of linktype VectorComponentLink in Scope root
+Registering Symbol size.theta of linktype VectorComponentLink in Scope root
+Registering Symbol size.abs of linktype VectorComponentLink in Scope root
+Setting boundary neighborhood to order 2
+Looking for neighborhood optimal
+Looking for neighborhood optimal
+Assigning Shape Neighborhood of size 2.23607 -> 20 neighbors.
+Setting boundary neighborhood to order 4
+Creating cell layer of size 4.40137 MB
+with initial state set to CellType 'Medium'
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 40
+getXMLAttribute: seeking for InitRectangle->mode: random
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 0.0, 0.0, 0.0
+getXMLAttribute: seeking for Dimensions->size: 350.0, 100.0, 0.0
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 40
+getXMLAttribute: seeking for InitRectangle->mode: random
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 300.0, 0.0, 0.0
+getXMLAttribute: seeking for Dimensions->size: 100.0, 350.0, 0.0
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 40
+getXMLAttribute: seeking for InitRectangle->mode: random
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 0.0, 100.0, 0.0
+getXMLAttribute: seeking for Dimensions->size: 100.0, 300.0, 0.0
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 40
+getXMLAttribute: seeking for InitRectangle->mode: random
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 100.0, 300.0, 0.0
+getXMLAttribute: seeking for Dimensions->size: 300.0, 100.0, 0.0
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 70
+getXMLAttribute: seeking for InitRectangle->mode: random
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 0.0, 0.0, 0.0
+getXMLAttribute: seeking for Dimensions->size: 350.0, 100.0, 0.0
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 70
+getXMLAttribute: seeking for InitRectangle->mode: random
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 300.0, 0.0, 0.0
+getXMLAttribute: seeking for Dimensions->size: 100.0, 300.0, 0.0
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 70
+getXMLAttribute: seeking for InitRectangle->mode: random
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 0.0, 100.0, 0.0
+getXMLAttribute: seeking for Dimensions->size: 100.0, 300.0, 0.0
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 70
+getXMLAttribute: seeking for InitRectangle->mode: random
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 100.0, 300.0, 0.0
+getXMLAttribute: seeking for Dimensions->size: 300.0, 100.0, 0.0
+Initializing celltype 'ElongatedCell'
+Scope: Creating Accessor for symbol 'vegf' from Scope root
+Scope: Creating Accessor for symbol 'lambda_chemo_base' from Scope root
+Scope: Creating Accessor for symbol 'antispace' from Scope root
+Scope: Creating Accessor for symbol 'neighbor_contact_length' from Scope CellType[ElongatedCell]
+Warning: Could not initialize default property neighbor_contact_length of celltype ElongatedCell.
+Plugin Chemotaxis: Registered input symbol dependencies neighbor_contact_length [CellType[ElongatedCell]] ,lambda_chemo_base [root] ,vegf [root] ,antispace [root] ,
+Plugin Event: Registered input symbol dependencies time [root] ,
+Scope: Creating Accessor for symbol 'division_timer' from Scope CellType[ElongatedCell]
+System::init: Reordering Initializers ...
+Scope: Creating Accessor for symbol 'division_timer' from Scope CellType[ElongatedCell]
+Warning: Could not initialize default property division_timer of celltype ElongatedCell.
+Scope: Creating Accessor for symbol 'cell.volume' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'vegf_contact' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'antispace' from Scope root
+Warning: Could not initialize default property vegf_contact of celltype ElongatedCell.
+Plugin CellDivision: Registered input symbol dependencies cell.volume [CellType[ElongatedCell]] ,vegf_contact [CellType[ElongatedCell]] ,antispace [root] ,
+Scope: Creating Accessor for symbol 'cell.center' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'vegf_contact' from Scope CellType[ElongatedCell]
+System::init: Reordering Initializers ...
+Scope: Creating Accessor for symbol '__daughterID' from Scope System
+Scope: Creating Accessor for symbol 'vegf' from Scope root
+Scope: Creating Accessor for symbol 'vegf_contact' from Scope CellType[ElongatedCell]
+Plugin Mapper: Registered input symbol dependencies vegf [root] ,
+PluginMapper: Registered output symbol dependencies vegf_contact [CellType[ElongatedCell]] ,
+Scope: Creating Accessor for symbol 'cell.center' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'cell.type' from Scope root
+Scope: Creating Accessor for symbol 'elongated_id' from Scope root
+Scope: Creating Accessor for symbol 'neighbor_contact_length' from Scope CellType[ElongatedCell]
+Plugin NeighborhoodReporter: Registered input symbol dependencies cell.type [root] ,elongated_id [root] ,
+PluginNeighborhoodReporter: Registered output symbol dependencies neighbor_contact_length [CellType[ElongatedCell]] ,
+Scope: Creating Accessor for symbol 'cell.center' from Scope CellType[ElongatedCell]
+noflux_cell_medium_interface.isDefined()
+Scope: Creating Accessor for symbol 'dir_x' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'dir_y' from Scope CellType[ElongatedCell]
+Warning: Could not initialize default property dir_x of celltype ElongatedCell.
+Warning: Could not initialize default property dir_y of celltype ElongatedCell.
+Plugin DirectedMotion: Registered input symbol dependencies dir_x [CellType[ElongatedCell]] ,dir_y [CellType[ElongatedCell]] ,
+Scope: Creating Accessor for symbol 'dir_x' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'dir_y' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'cell.center.x' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'freq' from Scope System
+Scope: Creating Accessor for symbol 'in_box' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'cell.center.x' from Scope CellType[ElongatedCell]
+Scope: Creating Accessor for symbol 'cell.center.y' from Scope CellType[ElongatedCell]
+Plugin Property: Registered input symbol dependencies cell.center.x [CellType[ElongatedCell]] ,cell.center.y [CellType[ElongatedCell]] ,
+Warning: Could not initialize default property in_box of celltype ElongatedCell.
+SymbolFocus::cell(): SymbolFocus cannot deduce cell.
+No position or cell associated with the Focus.
+Warning: Could not initialize default property in_box of celltype ElongatedCell.
+Scope: Creating Accessor for symbol 'cell.center.y' from Scope CellType[ElongatedCell]
+System::init: Reordering Initializers ...
+Scope: Creating Accessor for symbol 'lambda_surface_elongated' from Scope root
+Plugin SurfaceConstraint: Registered input symbol dependencies lambda_surface_elongated [root] ,
+Scope: Creating Accessor for symbol 'lambda_volume_elongated' from Scope root
+Plugin VolumeConstraint: Registered input symbol dependencies lambda_volume_elongated [root] ,
+InitRectangle: number of cells = 40, origin = 0, 0, 0, size = 350, 100, 0
+InitRectangle: clamped size from (350,100,0) to (350,100,1)
+successfully created 40 cells.
+InitRectangle: number of cells = 40, origin = 300, 0, 0, size = 100, 350, 0
+InitRectangle: clamped size from (100,350,0) to (100,350,1)
+successfully created 40 cells.
+InitRectangle: number of cells = 40, origin = 0, 100, 0, size = 100, 300, 0
+InitRectangle: clamped size from (100,300,0) to (100,300,1)
+successfully created 40 cells.
+InitRectangle: number of cells = 40, origin = 100, 300, 0, size = 300, 100, 0
+InitRectangle: clamped size from (300,100,0) to (300,100,1)
+successfully created 40 cells.
+Cells 160 requested 40
+Initializing celltype 'RoundCell'
+Scope: Creating Accessor for symbol 'lambda_volume_round' from Scope root
+Plugin VolumeConstraint: Registered input symbol dependencies lambda_volume_round [root] ,
+Scope: Creating Accessor for symbol 'lambda_surface_round' from Scope root
+Plugin SurfaceConstraint: Registered input symbol dependencies lambda_surface_round [root] ,
+Scope: Creating Accessor for symbol 'vegf' from Scope root
+Scope: Creating Accessor for symbol 'lambda_chemo_round' from Scope root
+Plugin Chemotaxis: Registered input symbol dependencies lambda_chemo_round [root] ,vegf [root] ,
+Scope: Creating Accessor for symbol 'cell.volume' from Scope CellType[RoundCell]
+Scope: Creating Accessor for symbol 'vegf_contact' from Scope CellType[RoundCell]
+Warning: Could not initialize default property vegf_contact of celltype RoundCell.
+Plugin CellDivision: Registered input symbol dependencies cell.volume [CellType[RoundCell]] ,vegf_contact [CellType[RoundCell]] ,
+Scope: Creating Accessor for symbol 'cell.center' from Scope CellType[RoundCell]
+InitRectangle: number of cells = 70, origin = 0, 0, 0, size = 350, 100, 0
+InitRectangle: clamped size from (350,100,0) to (350,100,1)
+successfully created 70 cells.
+InitRectangle: number of cells = 70, origin = 300, 0, 0, size = 100, 300, 0
+InitRectangle: clamped size from (100,300,0) to (100,300,1)
+successfully created 70 cells.
+InitRectangle: number of cells = 70, origin = 0, 100, 0, size = 100, 300, 0
+InitRectangle: clamped size from (100,300,0) to (100,300,1)
+successfully created 70 cells.
+InitRectangle: number of cells = 70, origin = 100, 300, 0, size = 300, 100, 0
+InitRectangle: clamped size from (300,100,0) to (300,100,1)
+successfully created 70 cells.
+Cells 280 requested 40
+Initializing celltype 'Medium'
+Scope: Creating Accessor for symbol 'T' from Scope root
+Plugin CPM: Registered input symbol dependencies T [root] ,
+Scope: Creating Accessor for symbol 'cell.center' from Scope root
+Scope: Creating Accessor for symbol 'cell.volume' from Scope root
+Scope: Creating Accessor for symbol 'cell.surface' from Scope root
+Scope: Creating Accessor for symbol 'cell.length' from Scope root
+Scope: Creating Accessor for symbol 'cell.type' from Scope root
+creating Edge tracker 
+
+ thread_id = 
+ thread_id = 
+ thread_id = 0x16bfb30000x16cfc3000, register_thread_index = , register_thread_index = 0x1eda2e08003, shared_locks_array[cur_index].value = 
+ thread_id = 1
+
+ thread_id = 0x16c7bb000, register_thread_index = 0x16b7ab000, register_thread_index = 4, shared_locks_array[cur_index].value = 1
+1, shared_locks_array[cur_index].value = , register_thread_index = 1
+2, shared_locks_array[cur_index].value = 1
+, shared_locks_array[cur_index].value = 1
+EdgeListTracker::init() : Created Tracker with Neighborhood size 8 of size 3.69824 MB
+EdgeListTracker::init() : Found 3487 initial edges, wherof 3487 can be modified.
+Scope: Creating Accessor for symbol 'J_ee_spatial' from Scope root
+Scope: Creating Accessor for symbol 'J_ee_base' from Scope root
+Scope: Creating Accessor for symbol 'J_ee_penalty' from Scope root
+Scope: Creating Accessor for symbol 'vegf' from Scope root
+Scope: Creating Accessor for symbol 'J_er' from Scope root
+Scope: Creating Accessor for symbol 'J_em' from Scope root
+Scope: Creating Accessor for symbol 'J_rr' from Scope root
+Scope: Creating Accessor for symbol 'J_rm' from Scope root
+CPM: InteractionEnergy has 20 neighbors
+CPM: InteractionEnergy was initialized with  IA_COLLAPSE 
+Scope: Creating Accessor for symbol 'T' from Scope root
+Scope: Creating Accessor for symbol 'antispace' from Scope root
+Plugin Variable: Registered input symbol dependencies T [root] ,antispace [root] ,
+Scope: Creating Accessor for symbol 'antispace' from Scope root
+Scope: Creating Accessor for symbol 'antispace_reduction' from Scope root
+System::init: Reordering Initializers ...
+Scope: Creating Accessor for symbol 'vegf' from Scope root
+Scope: Creating Accessor for symbol 'vegf' from Scope root
+Scope: Creating Accessor for symbol 'vegf_diff' from Scope root
+Creating FwdEulerADSolver
+Scope: Creating Accessor for symbol 'vegf_decay' from Scope root
+Scope: Creating Accessor for symbol 'space.x' from Scope root
+Scope: Creating Accessor for symbol 'space.y' from Scope root
+System::init: Reordering Initializers ...
+Loading Analysis tools [3]
+getXMLAttribute: seeking for Input/Symbol[0]->symbol-ref: time
+getXMLAttribute: seeking for Input/Symbol[1]->symbol-ref: antispace
+getXMLAttribute: seeking for Restriction/Slice->value .. not found
+getXMLAttribute: seeking for Restriction/Slice->axis .. not found
+getXMLAttribute: seeking for Restriction/Celltype->celltype .. not found
+getXMLAttribute: seeking for Restriction/Cells->cell-ids .. not found
+getXMLAttribute: seeking for Restriction->domain-only .. not found
+getXMLAttribute: seeking for Restriction->condition .. not found
+getXMLAttribute: seeking for Input->force-node-granularity .. not found
+getXMLAttribute: seeking for Input->include-boundary .. not found
+getXMLAttribute: seeking for Restriction->exclude-medium .. not found
+getXMLAttribute: seeking for Output/TextOutput->header .. not found
+getXMLAttribute: seeking for Output/TextOutput->header-guarding .. not found
+getXMLAttribute: seeking for Output/TextOutput->separator .. not found
+getXMLAttribute: seeking for Output/TextOutput->file-name: simulation.csv
+getXMLAttribute: seeking for Output/TextOutput->file-numbering .. not found
+getXMLAttribute: seeking for Output/TextOutput->file-separation .. not found
+getXMLAttribute: seeking for Output/TextOutput->file-format .. not found
+getXMLAttribute: seeking for Logger->time-step: 10
+getXMLAttribute: seeking for Gnuplotter->file-numbering .. not found
+getXMLAttribute: seeking for Terminal->name: png
+getXMLAttribute: seeking for Terminal->size .. not found
+getXMLAttribute: seeking for Gnuplotter->time-step: 50
+getXMLAttribute: seeking for Cells->value: cell.type
+getXMLAttribute: seeking for Field->symbol-ref: black_bg
+getXMLAttribute: seeking for Field->coarsening .. not found
+getXMLAttribute: seeking for Field->min .. not found
+getXMLAttribute: seeking for Field->max .. not found
+getXMLAttribute: seeking for Field->isolines .. not found
+getXMLAttribute: seeking for Field->surface .. not found
+getXMLAttribute: seeking for ModelGraph->format: dot
+getXMLAttribute: seeking for ModelGraph->reduced: false
+getXMLAttribute: seeking for ModelGraph->exclude-symbols .. not found
+getXMLAttribute: seeking for ModelGraph->include-tags: #untagged
+Scope: Creating Accessor for symbol 'time' from Scope root
+Scope: Creating Accessor for symbol 'antispace' from Scope root
+Plugin Logger: Registered input symbol dependencies time [root] ,antispace [root] ,
+Scope: Creating Accessor for symbol 'time' from Scope root
+Scope: Creating Accessor for symbol 'antispace' from Scope root
+Logger range:
+-> size 1
+-> dataAxes 
+-> data.sizes: 1, 
+-> file separation: None
+Scope: Creating Accessor for symbol 'time' from Scope root
+Scope: Creating Accessor for symbol 'cell.type' from Scope root
+Scope: Creating Accessor for symbol 'black_bg' from Scope root
+Event
+CellDivision
+Mapper
+NeighborhoodReporter
+System
+CellDivision
+CPM
+System
+System
+Logger
+Gnuplotter
+ModelGraph
+
+ TimeStepListener "Event" propagates its time step 10
+
+ TimeStepListener "CellDivision" propagates its time step 1
+
+ TimeStepListener "Mapper" propagates its time step 1
+
+ TimeStepListener "NeighborhoodReporter" propagates its time step 1
+
+ TimeStepListener "System" propagates its time step 1
+
+ TimeStepListener "CellDivision" propagates its time step 1
+
+ TimeStepListener "CPM" propagates its time step 1
+
+ TimeStepListener "System" propagates its time step 1
+
+ TimeStepListener "System" propagates its time step 0.02375
+
+ TimeStepListener "Logger" propagates its time step 10
+
+ TimeStepListener "Gnuplotter" propagates its time step 50
+
+ TimeStepListener "ModelGraph" propagates its time step 10000
+TimeScheduler::init: Ordering instantaneous processes for sequential update ...
+Trying to remove unregistered symbol "cell.center" from unresolved_symbols.Trying to remove unregistered symbol "cell.center" from unresolved_symbols. 
+======================================================
+ Time Schedule
+======================================================
+ Time precision patch is 2.375e-05
+
+=====|    Phase I     |===============================
+-----. CPM .------------------------------------
+  + 1 => CPM [J_ee_spatial,J_em,J_er,J_rm,J_rr,T,antispace,dir_x,dir_y,lambda_chemo_base,lambda_chemo_round,lambda_surface_elongated,lambda_surface_round,lambda_volume_elongated,lambda_volume_round,neighbor_contact_length,vegf] -> [cell.center,cell.length,cell.surface,cell.type,cell.volume]
+-----. Reactions .------------------------------------
+  + 1 => System [cell.center.x,cell.center.y,freq,in_box] -> [dir_x,dir_y]
+  + 1 => System [antispace_reduction] -> [antispace]
+  + 0.02375 => System [space.x,space.y,vegf_decay] -> [vegf]
+
+=====|    Phase II    |===============================
+-----. Reporters and Instantaneous Processes.---------
+  + 10 => Event [division_timer,time] -> [division_timer]
+  + 1 => CellDivision [antispace,cell.volume,vegf_contact] -> [cell.center,vegf_contact]
+  + 1 => Mapper [cell.center,vegf] -> [vegf_contact]
+  + 1 => NeighborhoodReporter [cell.center,cell.type,elongated_id] -> [neighbor_contact_length]
+  + 1 => CellDivision [cell.volume,vegf_contact] -> [cell.center]
+
+=====|    Phase III   |===============================
+-----. Analysis .-------------------------------------
+  + 10 => Logger [antispace,time] 
+  + 50 => Gnuplotter [black_bg,cell.type] 
+  + 10000 => ModelGraph [] 
+------------------------------------------------------
+======================================================
+
+model is up
+GnuPlotter: Saving plot_00000.png
+Time: 0.00 atu
+System::init: Reordering Initializers ...
+System::init: Reordering Initializers ...
+System::init: Reordering Initializers ...
+System::init: Reordering Initializers ...
+System::init: Reordering Initializers ...
+System::init: Reordering Initializers ...
+System::init: Reordering Initializers ...
+System::init: Reordering Initializers ...
+GnuPlotter: Saving plot_00050.png
+GnuPlotter: Saving plot_00100.png
+Time: 100 
+GnuPlotter: Saving plot_00150.png
+GnuPlotter: Saving plot_00200.png
+Time: 200 
+GnuPlotter: Saving plot_00250.png
+GnuPlotter: Saving plot_00300.png
+Time: 300 
+GnuPlotter: Saving plot_00350.png
+GnuPlotter: Saving plot_00400.png
+Time: 400 
+GnuPlotter: Saving plot_00450.png
+GnuPlotter: Saving plot_00500.png
+Time: 500 
+GnuPlotter: Saving plot_00550.png
+GnuPlotter: Saving plot_00600.png
+Time: 600 
+GnuPlotter: Saving plot_00650.png
+GnuPlotter: Saving plot_00700.png
+Time: 700 
+GnuPlotter: Saving plot_00750.png
+GnuPlotter: Saving plot_00800.png
+Time: 800 
+GnuPlotter: Saving plot_00850.png
+GnuPlotter: Saving plot_00900.png
+Time: 900 
+GnuPlotter: Saving plot_00950.png
+GnuPlotter: Saving plot_01000.png
+Time: 1000 
+GnuPlotter: Saving plot_01050.png
+GnuPlotter: Saving plot_01100.png
+Time: 1100 
+GnuPlotter: Saving plot_01150.png
+GnuPlotter: Saving plot_01200.png
+Time: 1200 
+GnuPlotter: Saving plot_01250.png
+GnuPlotter: Saving plot_01300.png
+Time: 1300 
+GnuPlotter: Saving plot_01350.png
+GnuPlotter: Saving plot_01400.png
+Time: 1400 
+GnuPlotter: Saving plot_01450.png
+GnuPlotter: Saving plot_01500.png
+Time: 1500 
+GnuPlotter: Saving plot_01550.png
+GnuPlotter: Saving plot_01600.png
+Time: 1600 
+GnuPlotter: Saving plot_01650.png
+GnuPlotter: Saving plot_01700.png
+Time: 1700 
+GnuPlotter: Saving plot_01750.png
+GnuPlotter: Saving plot_01800.png
+Time: 1800 
+GnuPlotter: Saving plot_01850.png
+GnuPlotter: Saving plot_01900.png
+Time: 1900 
+GnuPlotter: Saving plot_01950.png
+GnuPlotter: Saving plot_02000.png
+Time: 2000 
+GnuPlotter: Saving plot_02050.png
+GnuPlotter: Saving plot_02100.png
+Time: 2100 
+GnuPlotter: Saving plot_02150.png
+GnuPlotter: Saving plot_02200.png
+Time: 2200 
+GnuPlotter: Saving plot_02250.png
+GnuPlotter: Saving plot_02300.png
+Time: 2300 
+GnuPlotter: Saving plot_02350.png
+GnuPlotter: Saving plot_02400.png
+Time: 2400 
+GnuPlotter: Saving plot_02450.png
+GnuPlotter: Saving plot_02500.png
+Time: 2500 
+GnuPlotter: Saving plot_02550.png
+GnuPlotter: Saving plot_02600.png
+Time: 2600 
+GnuPlotter: Saving plot_02650.png
+GnuPlotter: Saving plot_02700.png
+Time: 2700 
+GnuPlotter: Saving plot_02750.png
+GnuPlotter: Saving plot_02800.png
+Time: 2800 
+GnuPlotter: Saving plot_02850.png
+GnuPlotter: Saving plot_02900.png
+Time: 2900 
+GnuPlotter: Saving plot_02950.png
+GnuPlotter: Saving plot_03000.png
+Time: 3000 
+GnuPlotter: Saving plot_03050.png
+GnuPlotter: Saving plot_03100.png
+Time: 3100 
+GnuPlotter: Saving plot_03150.png
+GnuPlotter: Saving plot_03200.png
+Time: 3200 
+GnuPlotter: Saving plot_03250.png
+GnuPlotter: Saving plot_03300.png
+Time: 3300 
+GnuPlotter: Saving plot_03350.png
+GnuPlotter: Saving plot_03400.png
+Time: 3400 
+GnuPlotter: Saving plot_03450.png
+GnuPlotter: Saving plot_03500.png
+Time: 3500 
+GnuPlotter: Saving plot_03550.png
+GnuPlotter: Saving plot_03600.png
+Time: 3600 
+GnuPlotter: Saving plot_03650.png
+GnuPlotter: Saving plot_03700.png
+Time: 3700 
+GnuPlotter: Saving plot_03750.png
+GnuPlotter: Saving plot_03800.png
+Time: 3800 
+GnuPlotter: Saving plot_03850.png
+GnuPlotter: Saving plot_03900.png
+Time: 3900 
+GnuPlotter: Saving plot_03950.png
+GnuPlotter: Saving plot_04000.png
+Time: 4000 
+GnuPlotter: Saving plot_04050.png
+GnuPlotter: Saving plot_04100.png
+Time: 4100 
+GnuPlotter: Saving plot_04150.png
+GnuPlotter: Saving plot_04200.png
+Time: 4200 
+GnuPlotter: Saving plot_04250.png
+GnuPlotter: Saving plot_04300.png
+Time: 4300 
+GnuPlotter: Saving plot_04350.png
+GnuPlotter: Saving plot_04400.png
+Time: 4400 
+GnuPlotter: Saving plot_04450.png
+GnuPlotter: Saving plot_04500.png
+Time: 4500 
+GnuPlotter: Saving plot_04550.png
+GnuPlotter: Saving plot_04600.png
+Time: 4600 
+GnuPlotter: Saving plot_04650.png
+GnuPlotter: Saving plot_04700.png
+Time: 4700 
+GnuPlotter: Saving plot_04750.png
+GnuPlotter: Saving plot_04800.png
+Time: 4800 
+GnuPlotter: Saving plot_04850.png
+GnuPlotter: Saving plot_04900.png
+Time: 4900 
+GnuPlotter: Saving plot_04950.png
+GnuPlotter: Saving plot_05000.png
+Time: 5000 
+GnuPlotter: Saving plot_05050.png
+GnuPlotter: Saving plot_05100.png
+Time: 5100 
+GnuPlotter: Saving plot_05150.png
+GnuPlotter: Saving plot_05200.png
+Time: 5200 
+GnuPlotter: Saving plot_05250.png
+GnuPlotter: Saving plot_05300.png
+Time: 5300 
+GnuPlotter: Saving plot_05350.png
+GnuPlotter: Saving plot_05400.png
+Time: 5400 
+GnuPlotter: Saving plot_05450.png
+GnuPlotter: Saving plot_05500.png
+Time: 5500 
+GnuPlotter: Saving plot_05550.png
+GnuPlotter: Saving plot_05600.png
+Time: 5600 
+GnuPlotter: Saving plot_05650.png
+GnuPlotter: Saving plot_05700.png
+Time: 5700 
+GnuPlotter: Saving plot_05750.png
+GnuPlotter: Saving plot_05800.png
+Time: 5800 
+GnuPlotter: Saving plot_05850.png
+GnuPlotter: Saving plot_05900.png
+Time: 5900 
+GnuPlotter: Saving plot_05950.png
+GnuPlotter: Saving plot_06000.png
+Time: 6000 
+GnuPlotter: Saving plot_06050.png
+GnuPlotter: Saving plot_06100.png
+Time: 6100 
+GnuPlotter: Saving plot_06150.png
+GnuPlotter: Saving plot_06200.png
+Time: 6200 
+GnuPlotter: Saving plot_06250.png
+GnuPlotter: Saving plot_06300.png
+Time: 6300 
+GnuPlotter: Saving plot_06350.png
+GnuPlotter: Saving plot_06400.png
+Time: 6400 
+GnuPlotter: Saving plot_06450.png
+GnuPlotter: Saving plot_06500.png
+Time: 6500 
+GnuPlotter: Saving plot_06550.png
+GnuPlotter: Saving plot_06600.png
+Time: 6600 
+GnuPlotter: Saving plot_06650.png
+GnuPlotter: Saving plot_06700.png
+Time: 6700 
+GnuPlotter: Saving plot_06750.png
+GnuPlotter: Saving plot_06800.png
+Time: 6800 
+GnuPlotter: Saving plot_06850.png
+GnuPlotter: Saving plot_06900.png
+Time: 6900 
+GnuPlotter: Saving plot_06950.png
+GnuPlotter: Saving plot_07000.png
+Time: 7000 
+GnuPlotter: Saving plot_07050.png
+GnuPlotter: Saving plot_07100.png
+Time: 7100 
+GnuPlotter: Saving plot_07150.png
+GnuPlotter: Saving plot_07200.png
+Time: 7200 
+GnuPlotter: Saving plot_07250.png
+GnuPlotter: Saving plot_07300.png
+Time: 7300 
+GnuPlotter: Saving plot_07350.png
+GnuPlotter: Saving plot_07400.png
+Time: 7400 
+GnuPlotter: Saving plot_07450.png
+GnuPlotter: Saving plot_07500.png
+Time: 7500 
+GnuPlotter: Saving plot_07550.png
+GnuPlotter: Saving plot_07600.png
+Time: 7600 
+GnuPlotter: Saving plot_07650.png
+GnuPlotter: Saving plot_07700.png
+Time: 7700 
+GnuPlotter: Saving plot_07750.png
+GnuPlotter: Saving plot_07800.png
+Time: 7800 
+GnuPlotter: Saving plot_07850.png
+GnuPlotter: Saving plot_07900.png
+Time: 7900 
+GnuPlotter: Saving plot_07950.png
+GnuPlotter: Saving plot_08000.png
+Time: 8000 
+GnuPlotter: Saving plot_08050.png
+GnuPlotter: Saving plot_08100.png
+Time: 8100 
+GnuPlotter: Saving plot_08150.png
+GnuPlotter: Saving plot_08200.png
+Time: 8200 
+GnuPlotter: Saving plot_08250.png
+GnuPlotter: Saving plot_08300.png
+Time: 8300 
+GnuPlotter: Saving plot_08350.png
+GnuPlotter: Saving plot_08400.png
+Time: 8400 
+GnuPlotter: Saving plot_08450.png
+GnuPlotter: Saving plot_08500.png
+Time: 8500 
+GnuPlotter: Saving plot_08550.png
+GnuPlotter: Saving plot_08600.png
+Time: 8600 
+GnuPlotter: Saving plot_08650.png
+GnuPlotter: Saving plot_08700.png
+Time: 8700 
+GnuPlotter: Saving plot_08750.png
+GnuPlotter: Saving plot_08800.png
+Time: 8800 
+GnuPlotter: Saving plot_08850.png
+GnuPlotter: Saving plot_08900.png
+Time: 8900 
+GnuPlotter: Saving plot_08950.png
+GnuPlotter: Saving plot_09000.png
+Time: 9000 
+GnuPlotter: Saving plot_09050.png
+GnuPlotter: Saving plot_09100.png
+Time: 9100 
+GnuPlotter: Saving plot_09150.png
+GnuPlotter: Saving plot_09200.png
+Time: 9200 
+GnuPlotter: Saving plot_09250.png
+GnuPlotter: Saving plot_09300.png
+Time: 9300 
+GnuPlotter: Saving plot_09350.png
+GnuPlotter: Saving plot_09400.png
+Time: 9400 
+GnuPlotter: Saving plot_09450.png
+GnuPlotter: Saving plot_09500.png
+Time: 9500 
+GnuPlotter: Saving plot_09550.png
+GnuPlotter: Saving plot_09600.png
+Time: 9600 
+GnuPlotter: Saving plot_09650.png
+GnuPlotter: Saving plot_09700.png
+Time: 9700 
+GnuPlotter: Saving plot_09750.png
+GnuPlotter: Saving plot_09800.png
+Time: 9800 
+GnuPlotter: Saving plot_09850.png
+GnuPlotter: Saving plot_09900.png
+Time: 9900 
+GnuPlotter: Saving plot_09950.png
+GnuPlotter: Saving plot_10000.png
+Time: 10000 
+sampler 1 layer 217
+
+=======================================================
+    SCHEDULER PERFORMANCE STATISTICS
+=======================================================
+
+    +  96.3% = 143053s (36504)  | System [space.x,space.y,vegf_decay -> vegf]
+           |    64s (  184)  | Diffusion[vegf]
+           | 142989s (36320)  | Reaction
+    +   3.6% =  5416s (   37)  | Gnuplotter [black_bg,cell.type]
+    +   0.1% =    71s (  296)  | CPM [J_ee_spatial,J_em,J_er,J_rm,J_rr,T,antispace,dir_x,dir_y,lambda_chemo_base,lambda_chemo_round,lambda_surface_elongated,lambda_surface_round,lambda_volume_elongated,lambda_volume_round,neighbor_contact_length,vegf -> cell.center,cell.length,cell.surface,cell.type,cell.volume]
+    +   0.0% =     4s (   15)  | Mapper [cell.center,vegf -> vegf_contact]
+    +   0.0% =     1s (    1)  | CellDivision [cell.volume,vegf_contact -> cell.center]
+    +   0.0% =     1s (    3)  | NeighborhoodReporter [cell.center,cell.type,elongated_id -> neighbor_contact_length]
+    +   0.0% =     1s (    1)  | CellDivision [antispace,cell.volume,vegf_contact -> cell.center,vegf_contact]
+    +   0.0% =     1s (    1)  | System [cell.center.x,cell.center.y,freq,in_box -> dir_x,dir_y]
+    +   0.0% =     1s (    0)  | Logger [antispace,time]
+    +   0.0% =     0s (    0)  | Initialisation []
+    +   0.0% =     0s (    0)  | System [antispace_reduction -> antispace]
+    +   0.0% =     0s (    0)  | Event [division_timer,time -> division_timer]
+    +   0.0% =     0s (    0)  | ModelGraph []
+
+======================================================
+
+=== Simulation finished ===
+Wall Time   = 1d 17h 15m
+CPU Time    = 11h 26m 54s  (5 threads)
+

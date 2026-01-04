@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MorpheusModel version="4">
+    <Description>
+        <Details></Details>
+        <Title></Title>
+    </Description>
+    <Space>
+        <Lattice class="square">
+            <Neighborhood>
+                <Order>optimal</Order>
+            </Neighborhood>
+            <Size symbol="size" value="200.0, 200.0, 1.0"/>
+        </Lattice>
+        <SpaceSymbol symbol="space"/>
+    </Space>
+    <Time>
+        <StartTime value="0"/>
+        <StopTime value="5000"/>
+        <TimeSymbol symbol="time"/>
+    </Time>
+    <Analysis>
+        <ModelGraph format="dot" reduced="false" include-tags="#untagged"/>
+    </Analysis>
+    <Global>
+        <Constant symbol="k_on" value="1.0"/>
+        <Field symbol="u" value="0.0">
+            <Diffusion rate="0.1"/>
+        </Field>
+        <Field symbol="v" value="0.0">
+            <Diffusion rate="0.0"/>
+        </Field>
+        <System solver="Dormand-Prince [adaptive, O(5)]">
+            <DiffEqn symbol-ref="u">
+                <Expression>-k_on*u*m+k_off*v-decay*u
+</Expression>
+            </DiffEqn>
+            <DiffEqn symbol-ref="v">
+                <Expression>k_on * u  * m - k_off * v</Expression>
+            </DiffEqn>
+        </System>
+        <Constant symbol="k_on" value="1.0"/>
+        <Constant symbol="k_off" value="0.1 "/>
+        <Constant symbol="decay" value="0.05"/>
+    </Global>
+    <CellTypes>
+        <CellType class="medium" name="Endothelial">
+            <VolumeConstraint target="50" strength="20"/>
+            <LengthConstraint target="30" strength="10" mode="length"/>
+            <Chemotaxis strength="500" field="v"/>
+        </CellType>
+    </CellTypes>
+    <CellPopulations>
+        <Population type="Endothelial" size="1">
+            <InitProperty symbol-ref="cell.id">
+                <Expression>0.0</Expression>
+            </InitProperty>
+        </Population>
+    </CellPopulations>
+</MorpheusModel>

@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MorpheusModel version="4">
+    <Description>
+        <Title>Hybrid CPM: Elongated and Round Cells with VEGF</Title>
+        <Details>
+            Cellular Potts Model with:
+            - Elongated cells (proliferate on VEGF contact)
+            - Round cells
+            - VEGF diffusion and decay
+            - Anti-space for increasing static behavior
+        </Details>
+    </Description>
+    <Space>
+        <Lattice class="square">
+            <Size symbol="size" value="400, 400, 0"/>
+            <BoundaryConditions>
+                <Condition type="noflux" boundary="x"/>
+                <Condition type="noflux" boundary="y"/>
+            </BoundaryConditions>
+            <Neighborhood>
+                <Order>2</Order>
+            </Neighborhood>
+        </Lattice>
+        <SpaceSymbol symbol="space"/>
+    </Space>
+    <Time>
+        <StartTime value="0"/>
+        <StopTime value="10000"/>
+        <TimeSymbol symbol="time"/>
+    </Time>
+    <Global>
+        <Constant symbol="T" name="Temperature" value="10.0"/>
+        <Constant symbol="lambda_volume_elongated" name="Volume constraint" value="6.0"/>
+        <Constant symbol="lambda_surface_elongated" name="Surface constraint" value="3.0"/>
+        <Constant symbol="vegf_threshold" name="VEGF proliferation threshold" value="0.5"/>
+        <Constant symbol="antispace_reduction" name="Anti-space reduction rate" value="0.001"/>
+        <Constant symbol="J_rr" value="5.0"/>
+        <Constant symbol="J_er" value="4.0"/>
+        <Constant symbol="J_em" value="3.0"/>
+        <Constant symbol="J_rm" value="6.0"/>
+        <Field symbol="vegf" name="VEGF concentration" value="1.0">
+            <Diffusion rate="vegf_diff"/>
+        </Field>
+        <Constant symbol="lambda_chemo_base" name="Chemotaxis strength (elongated)" value="1500.0"/>
+        <Constant symbol="lambda_chemo_round" name="Chemotaxis strength (round)" value="100.0"/>
+        <Variable symbol="antispace" value="1.0"/>
+        <Variable symbol="T_eff" name="Effective temperature" value="T * antispace"/>
+        <System time-step="1.0" time-scaling="1.0" solver="Runge-Kutta [fixed, O(4)]">
+            <DiffEqn symbol-ref="antispace">
+                <Expression>-antispace_reduction * antispace</Expression>
+            </DiffEqn>
+        </System>
+        <Constant symbol="vegf_diff" value="10.0"/>
+        <Constant symbol="vegf_decay" value="0.005"/>
+        <Constant symbol="lambda_surface_round" value="1.0"/>
+        <Constant symbol="lambda_volume_round" value="15.0"/>
+        <System solver="Dormand-Prince [adaptive, O(5)]">
+            <DiffEqn symbol-ref="vegf">
+                <Expression>-vegf_decay * vegf + 0.02 * ( ((space.x-200)^2 + (space.y-200)^2) &lt; 2500 )</Expression>
+            </DiffEqn>
+        </System>
+        <Constant symbol="J_ee_base" name="Elongated-Elongated adhesion" value="5.0"/>
+        <Constant symbol="J_ee_penalty" value="20.0"/>
+        <Function symbol="J_ee_spatial">
+            <Expression>J_ee_base + J_ee_penalty * (1.0 - min(1.0, vegf/4.0))</Expression>
+        </Function>
+        <Constant symbol="elongated_id" value="1.0"/>
+        <Constant symbol="grid_freq" value="2 * pi/50"/>
+        <Constant symbol="black_bg" value="0.0"/>
+    </Global>
+    <!-- Elongated Cell Type -->
+    <!-- Round Cell Type -->
+    <!-- CPM Dynamics -->
+    <CPM>
+        <Interaction default="0.0">
+            <Contact type1="ElongatedCell" type2="Medium" value="J_em"/>
+            <Contact type1="RoundCell" type2="Medium" value="J_rm"/>
+            <Contact type1="ElongatedCell" type2="RoundCell" value="J_er"/>
+            <Contact type1="ElongatedCell" type2="ElongatedCell" value="J_ee_spatial"/>
+            <Contact type1="RoundCell" type2="RoundCell" value="J_rr"/>
+        </Interaction>
+        <MonteCarloSampler stepper="edgelist">
+            <Neighborhood>
+                <Order>optimal</Order>
+            </Neighborhood>
+            <MCSDuration value="1.0"/>
+            <MetropolisKinetics yield="0" temperature="T"/>
+        </MonteCarloSampler>
+        <ShapeSurface scaling="norm">
+            <Neighborhood>
+                <Order>optimal</Order>
+            </Neighborhood>
+        </ShapeSurface>
+    </CPM>
+    <!-- Anti-space dynamics: decreases over time -->
+    <!-- Initial Population -->
+    <CellPopulations>
+        <Population type="ElongatedCell" size="40">
+            <InitRectangle number-of-cells="40" mode="random">
+                <Dimensions origin="0.0, 0.0, 0.0" size="350.0, 100.0, 0.0"/>
+            </InitRectangle>
+            <InitRectangle number-of-cells="40" mode="random">
+                <Dimensions origin="300.0, 0.0, 0.0" size="100.0, 350.0, 0.0"/>
+            </InitRectangle>
+            <InitRectangle number-of-cells="40" mode="random">
+                <Dimensions origin="0.0, 100.0, 0.0" size="100.0, 300.0, 0.0"/>
+            </InitRectangle>
+            <InitRectangle number-of-cells="40" mode="random">
+                <Dimensions origin="100.0, 300.0, 0.0" size="300.0, 100.0, 0.0"/>
+            </InitRectangle>
+        </Population>
+        <Population type="RoundCell" size="40">t 
+            <InitRectangle number-of-cells="70" mode="random">
+                <Dimensions origin="0.0, 0.0, 0.0" size="350.0, 100.0, 0.0"/>
+            </InitRectangle>
+            <InitRectangle number-of-cells="70" mode="random">
+                <Dimensions origin="300.0, 0.0, 0.0" size="100.0, 300.0, 0.0"/>
+            </InitRectangle>
+            <InitRectangle number-of-cells="70" mode="random">
+                <Dimensions origin="0.0, 100.0, 0.0" size="100.0, 300.0, 0.0"/>
+            </InitRectangle>
+            <InitRectangle number-of-cells="70" mode="random">
+                <Dimensions origin="100.0, 300.0, 0.0" size="300.0, 100.0, 0.0"/>
+            </InitRectangle>
+        </Population>
+    </CellPopulations>
+    <!-- VEGF initialization -->
+    <!-- Analysis and Visualization -->
+    <Analysis>
+        <Logger time-step="10">
+            <Input>
+                <Symbol symbol-ref="time"/>
+                <Symbol symbol-ref="antispace"/>
+            </Input>
+            <Output>
+                <TextOutput file-name="simulation.csv"/>
+            </Output>
+        </Logger>
+        <Gnuplotter time-step="50" decorate="true">
+            <Plot>
+                <!--    <Disabled>
+        <Field symbol-ref="vegf"/>
+    </Disabled>
+-->
+                <Cells max="10" min="0" value="cell.type"/>
+                <Field symbol-ref="black_bg">
+                    <ColorMap>
+                        <Color value="0" color="black"/>
+                        <Color value="0" color="black"/>
+                    </ColorMap>
+                </Field>
+            </Plot>
+            <Terminal name="png"/>
+        </Gnuplotter>
+        <ModelGraph format="dot" reduced="false" include-tags="#untagged"/>
+    </Analysis>
+    <CellTypes>
+        <CellType class="biological" name="ElongatedCell">
+            <!--    <Disabled>
+        <Property symbol="target_aspect" name="Target Aspect Ratio" value="3.0"/>
+    </Disabled>
+-->
+            <Chemotaxis saturation="1" strength="lambda_chemo_base * antispace * (50.0 / (50.0 + neighbor_contact_length))" field="vegf"/>
+            <!--    <Disabled>
+        <System time-scaling="1.0" solver="Runge-Kutta [fixed, O(4)]">
+            <Rule symbol-ref="current_chemo_strength">
+                <Expression internal:disabled="true">0.0</Expression>
+                <Expression>lambda_chemo_base * antispace * (50.0 / (50.0 + contact_neighbor_length))</Expression>
+            </Rule>
+        </System>
+    </Disabled>
+-->
+            <Event time-step="10.0">
+                <Condition history="true">division_timer == 1</Condition>
+                <Rule symbol-ref="division_timer">
+                    <Expression>0</Expression>
+                </Rule>
+            </Event>
+            <CellDivision division-plane="major">
+                <Condition>cell.volume > 90 and vegf_contact > 0.1 and (0.0005*(1+0.25 * vegf_contact) * antispace) > rand_uni(0,1)</Condition>
+                <Triggers>
+                    <!--    <Disabled>
+        <Rule symbol-ref="division_timer">
+            <Expression>0.0</Expression>
+        </Rule>
+    </Disabled>
+-->
+                    <Rule symbol-ref="vegf_contact">
+                        <!--    <Disabled>
+        <Expression>0.0</Expression>
+    </Disabled>
+-->
+                        <Expression>vegf_contact *0.5</Expression>
+                    </Rule>
+                </Triggers>
+            </CellDivision>
+            <Mapper time-step="1.0">
+                <Input value="vegf"/>
+                <Output symbol-ref="vegf_contact" mapping="average"/>
+            </Mapper>
+            <!--    <Disabled>
+        <DirectedMotion direction="dir_x, dir_y, 0.0" strength="0.5"/>
+    </Disabled>
+-->
+            <!--    <Disabled>
+        <System time-step="1.0" solver="Runge-Kutta [fixed, O(4)]">
+            <Rule symbol-ref="dir_x">
+                <Expression internal:disabled="true">0.0</Expression>
+                <Expression>200 - cell.center.x</Expression>
+            </Rule>
+            <Rule symbol-ref="dir_y">
+                <Expression internal:disabled="true">0.0</Expression>
+                <Expression>200 - cell.center.y</Expression>
+            </Rule>
+        </System>
+    </Disabled>
+-->
+            <NeighborhoodReporter time-step="1.0">
+                <Input scaling="length" value="cell.type == elongated_id"/>
+                <Output symbol-ref="neighbor_contact_length" mapping="sum"/>
+            </NeighborhoodReporter>
+            <Property symbol="current_chemo_strength" value="0.0"/>
+            <DirectedMotion direction="dir_x, dir_y, 0.0" strength="1"/>
+            <System time-step="1.0" solver="Runge-Kutta [fixed, O(4)]">
+                <Constant symbol="freq" value="2 * pi/50.0"/>
+                <Rule symbol-ref="dir_x">
+                    <Expression>-sin(cell.center.x * freq) * in_box</Expression>
+                </Rule>
+                <Rule symbol-ref="dir_y">
+                    <Expression>-sin(cell.center.y * freq) * in_box</Expression>
+                </Rule>
+            </System>
+            <SurfaceConstraint target="50" strength="lambda_surface_elongated" mode="surface"/>
+            <VolumeConstraint target="150" strength="lambda_volume_elongated"/>
+            <LengthConstraint target="60" strength="8" mode="eccentricity"/>
+            <Property symbol="vegf_contact" name="VEGF Contact Level" value="0.0"/>
+            <Property symbol="division_timer" name="Division countdown" value="0.0"/>
+            <Property symbol="display" value="1.0"/>
+            <Property symbol="neighbor_contact_length" value="0.0"/>
+            <Property symbol="dir_x" value="0.0"/>
+            <Property symbol="dir_y" value="0.0"/>
+            <Property symbol="in_box" value="(cell.center.x > 100) and (cell.center.x &lt; 300) and (cell.center.y > 100) and (cell.center.y &lt; 300)"/>
+        </CellType>
+        <CellType class="biological" name="RoundCell">
+            <VolumeConstraint target="80" strength="lambda_volume_round"/>
+            <SurfaceConstraint target="35" strength="lambda_surface_round" mode="surface"/>
+            <Chemotaxis strength="lambda_chemo_round" field="vegf "/>
+            <CellDivision division-plane="major">
+                <Condition>cell.volume > 90 and vegf_contact > 0.1 and (0.002*(1+0.25 * vegf_contact) * antispace) > rand_uni(0,1)</Condition>
+            </CellDivision>
+        </CellType>
+        <CellType class="medium" name="Medium"/>
+    </CellTypes>
+</MorpheusModel>

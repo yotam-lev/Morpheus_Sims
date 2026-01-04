@@ -1,0 +1,2211 @@
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 402: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 402: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3883: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3883: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 36487: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 36487: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 69559: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 69559: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 103144: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 103144: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 136896: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 136896: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 170894: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 170894: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 205716: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 205716: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 240985: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 240985: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 276778: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 276778: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 313118: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 313118: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 349850: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 349850: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 386993: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 386993: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 424568: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 424568: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 462372: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 462372: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 500509: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 500509: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 538923: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 538923: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 577510: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 577510: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 616012: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 616012: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 654668: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 654668: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 693097: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 693097: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 731931: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 731931: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 771172: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 771172: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 810269: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 810269: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 849857: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 849857: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 889524: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 889524: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 929322: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 929322: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 969173: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 969173: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1009333: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1009333: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1049297: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1049297: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1089521: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1089521: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1129814: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1129814: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1170503: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1170503: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1211099: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1211099: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1251823: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1251823: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1292699: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1292699: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1334241: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1334241: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1375528: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1375528: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1417297: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1417297: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1459182: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1459182: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1500944: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1500944: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1542591: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1542591: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1584706: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1584706: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1627117: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1627117: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1669354: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1669354: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1711975: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1711975: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1754750: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1754750: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1797443: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1797443: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1840168: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1840168: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1882770: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1882770: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1925344: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1925344: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 1968037: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 1968037: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2010651: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2010651: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2053300: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2053300: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2095910: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2095910: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2139052: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2139052: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2182468: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2182468: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2225977: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2225977: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2269126: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2269126: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2312549: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2312549: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2356233: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2356233: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2399967: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2399967: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2443930: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2443930: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2487813: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2487813: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2531911: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2531911: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2576045: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2576045: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2620229: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2620229: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2664586: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2664586: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2708722: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2708722: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2752992: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2752992: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2797329: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2797329: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2842237: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2842237: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2886737: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2886737: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2931018: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2931018: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 2975933: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 2975933: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3020835: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3020835: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3065999: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3065999: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3111381: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3111381: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3156892: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3156892: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3202400: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3202400: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3248197: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3248197: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3294177: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3294177: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3340039: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3340039: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3386171: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3386171: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3432136: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3432136: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3478605: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3478605: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3525162: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3525162: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3572185: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3572185: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3619312: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3619312: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3666498: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3666498: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3713982: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3713982: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3761314: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3761314: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3808960: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3808960: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3856813: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3856813: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3904464: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3904464: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 3952437: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 3952437: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4000339: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4000339: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4048364: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4048364: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4096813: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4096813: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4144917: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4144917: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4193605: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4193605: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4242902: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4242902: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4291983: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4291983: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4341247: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4341247: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4390165: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4390165: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4439420: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4439420: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4489160: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4489160: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4539322: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4539322: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4589773: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4589773: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4640142: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4640142: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4690492: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4690492: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4741237: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4741237: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4792211: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4792211: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4843411: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4843411: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4894360: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4894360: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4945715: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4945715: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 4997484: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 4997484: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5049304: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5049304: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5101197: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5101197: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5153683: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5153683: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5206199: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5206199: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5259167: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5259167: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5312143: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5312143: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5365125: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5365125: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5418545: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5418545: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5471947: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5471947: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5526148: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5526148: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5579235: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5579235: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5633309: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5633309: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5687616: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5687616: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5741873: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5741873: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5796544: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5796544: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5851864: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5851864: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5907119: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5907119: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 5962751: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 5962751: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6018316: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6018316: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6074433: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6074433: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6130563: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6130563: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6187859: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6187859: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6244757: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6244757: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6302285: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6302285: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6359642: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6359642: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6417237: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6417237: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6474570: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6474570: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6531951: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6531951: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6589672: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6589672: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6647749: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6647749: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6705696: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6705696: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6763740: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6763740: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6822096: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6822096: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6880447: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6880447: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6939249: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6939249: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 6998140: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 6998140: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7057455: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7057455: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7117154: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7117154: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7176628: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7176628: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7236336: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7236336: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7296456: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7296456: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7356514: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7356514: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7416392: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7416392: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7476678: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7476678: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7537164: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7537164: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7598087: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7598087: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7659017: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7659017: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7719837: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7719837: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7781209: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7781209: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7842569: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7842569: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7904306: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7904306: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 7966176: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 7966176: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8028135: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8028135: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8090263: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8090263: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8152396: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8152396: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8214854: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8214854: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8277671: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8277671: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8340894: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8340894: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8403800: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8403800: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8467107: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8467107: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8530872: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8530872: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8594808: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8594808: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8659293: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8659293: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8724149: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8724149: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8788544: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8788544: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8853266: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8853266: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8918331: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8918331: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 8983457: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 8983457: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9048573: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9048573: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9113773: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9113773: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9179513: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9179513: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9245663: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9245663: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9312000: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9312000: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9378485: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9378485: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9445224: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9445224: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9512250: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9512250: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9579682: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9579682: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9647825: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9647825: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9715904: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9715904: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9783986: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9783986: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9852419: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9852419: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9921181: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9921181: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 9989955: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 9989955: unrecognized option - see 'help set'.
+
+
+multiplot> set palette defined (0 'blue' );
+                                         ^
+           line 10058661: invalid palette syntax
+
+Warning: empty cb range [1:1], adjusting to [0.99:1.01]
+
+multiplot> set colorbox; set cbtics; set clabel;
+                                         ^
+           line 10058661: unrecognized option - see 'help set'.
+
